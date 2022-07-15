@@ -1,6 +1,7 @@
 body {
 	font-family: "Roboto", sans-serif;
-	color: ;
+	font-style: normal;
+	color: #757575;
 }
 ul {
 	list-style: none;
@@ -8,6 +9,11 @@ ul {
 
 a {
 	text-decoration: none;
+}
+
+h2,
+h3 {
+	color: #212121;
 }
 
 .visually-hidden {
@@ -26,7 +32,7 @@ a {
 /* Logo header and footer */
 .logo {
 	font-family: "Raleway";
-	font-style: normal;
+	/* font-style: normal; */
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -52,8 +58,6 @@ a {
 }
 
 .header-link {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -99,8 +103,6 @@ a {
 	font-style: normal;
 }
 .footer-item {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -112,8 +114,6 @@ a {
 
 .footer-mail,
 .footer-tel {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -132,3 +132,102 @@ a {
 
 /* Main page Studio */
 /* Section Hero */
+.hero {
+	background-color: #2f303a;
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+.hero-btn {
+	background: #2196f3;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+
+	/* display: flex;
+	align-items: center;
+	text-align: center; */
+	letter-spacing: 0.06em;
+
+	color: #ffffff;
+
+	cursor: pointer;
+}
+
+/* Section Features */
+
+.features {
+	background-color: #e5e5e5;
+}
+
+.features-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	/* color: #212121; */
+}
+
+.features-item {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+
+	/* color: #757575; */
+}
+
+/* Section About */
+.about {
+	background-color: #e5e5e5;
+}
+
+.about-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* Section Team */
+.team {
+	background-color: #f5f4fa;
+}
+.team-main-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.team-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+
+	/* text-align: center; */
+	letter-spacing: 0.03em;
+}
+
+.team-info {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+
+	/* text-align: center; */
+	letter-spacing: 0.03em;
+}
