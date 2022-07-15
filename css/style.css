@@ -9,6 +9,7 @@
 	--second-bgcolor: #2f303a;
 	--third-bgcolor: #e5e5e5;
 	--fourth-bgcolor: #f5f4fa;
+	--fifth-bgcolor: #eeeeee;
 }
 
 body {
@@ -252,5 +253,51 @@ h3 {
 	line-height: 1.19;
 
 	/* text-align: center; */
+	letter-spacing: 0.03em;
+}
+/* Main page Portfolio */
+
+.portfolio {
+	background-color: #e5e5e5;
+}
+
+.portfolio-btn {
+	background: #f5f4fa;
+
+	font-style: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: #212121;
+
+	cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+	color: #ffffff;
+	background-color: #2196f3;
+}
+
+.portfolio-item {
+	background-color: #eeeeee;
+}
+
+.portfolio-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+
+	letter-spacing: 0.06em;
+}
+.portfolio-info {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.87;
+
 	letter-spacing: 0.03em;
 }
