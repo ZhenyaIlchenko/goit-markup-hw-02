@@ -1,7 +1,20 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+	--primary-white-color: #ffffff;
+	--logo-black-color: #000000;
+	--second-btn-color: #188ce8;
+	--first-bgcolor: #ffffff;
+	--second-bgcolor: #2f303a;
+	--third-bgcolor: #e5e5e5;
+	--fourth-bgcolor: #f5f4fa;
+}
+
 body {
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
-	color: #757575;
+	color: var(--primary-text-color);
 }
 ul {
 	list-style: none;
@@ -13,7 +26,7 @@ a {
 
 h2,
 h3 {
-	color: #212121;
+	color: var(--title-text-color);
 }
 
 .visually-hidden {
@@ -32,7 +45,6 @@ h3 {
 /* Logo header and footer */
 .logo {
 	font-family: "Raleway";
-	/* font-style: normal; */
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -40,21 +52,22 @@ h3 {
 }
 
 .logo-prefix {
-	color: #2196f3;
+	color: var(--accent-color);
+	/* color: #2196f3; */
 }
 
 .logo-suffix-header {
-	color: #000000;
+	color: var(--logo-black-color);
 }
 
 .logo-suffix-footer {
-	color: #ffffff;
+	color: var(--primary-white-color);
 }
 
 /* Header */
 
 .header {
-	background-color: #ffffff;
+	background-color: var(--first-bgcolor);
 }
 
 .header-link {
@@ -149,6 +162,7 @@ h3 {
 }
 .hero-btn {
 	background: #2196f3;
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -161,6 +175,11 @@ h3 {
 	color: #ffffff;
 
 	cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	background: #188ce8;
 }
 
 /* Section Features */
@@ -205,6 +224,10 @@ h3 {
 /* Section Team */
 .team {
 	background-color: #f5f4fa;
+}
+
+.team-item {
+	background-color: #ffffff;
 }
 .team-main-title {
 	font-weight: 700;
