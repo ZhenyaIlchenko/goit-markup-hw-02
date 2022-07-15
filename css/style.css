@@ -117,7 +117,6 @@ h3 {
 	font-style: normal;
 }
 .footer-item {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 
@@ -128,7 +127,6 @@ h3 {
 
 .footer-mail,
 .footer-tel {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 
@@ -201,12 +199,9 @@ h3 {
 }
 
 .features-item {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-
-	/* color: #757575; */
 }
 
 /* Section About */
@@ -248,7 +243,6 @@ h3 {
 }
 
 .team-info {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
 
@@ -295,7 +289,6 @@ h3 {
 	letter-spacing: 0.06em;
 }
 .portfolio-info {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.87;
 
