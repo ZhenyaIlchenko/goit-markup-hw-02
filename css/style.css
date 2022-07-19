@@ -9,7 +9,7 @@
 	--second-bgcolor: #2f303a;
 	--third-bgcolor: #e5e5e5;
 	--fourth-bgcolor: #f5f4fa;
-	--fifth-bgcolor: #eeeeee;
+	--footer-mail-tel-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -54,7 +54,6 @@ h3 {
 
 .logo-prefix {
 	color: var(--accent-color);
-	/* color: #2196f3; */
 }
 
 .logo-suffix-header {
@@ -77,16 +76,16 @@ h3 {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 
-	color: #212121;
+	color: var(--title-text-color);
 }
 
 .header-link.active {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 
 .header-link:hover,
 .header-link:focus {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 
 .header-mail,
@@ -98,19 +97,19 @@ h3 {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 
-	color: #757575;
+	color: var(--primary-text-color);
 }
 
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 
 /* Footer */
 .footer {
-	background-color: #2f303a;
+	background-color: var(--second-bgcolor);
 }
 
 .footer-address {
@@ -122,7 +121,7 @@ h3 {
 
 	letter-spacing: 0.03em;
 
-	color: #ffffff;
+	color: var(--primary-white-color);
 }
 
 .footer-mail,
@@ -132,20 +131,21 @@ h3 {
 
 	letter-spacing: 0.03em;
 
-	color: rgba(255, 255, 255, 0.6);
+	color: var(--footer-mail-tel-color);
+	/* color: rgba(255, 255, 255, 0.6); */
 }
 
 .footer-mail:hover,
 .footer-mail:focus,
 .footer-tel:hover,
 .footer-tel:focus {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 
 /* Main page Studio */
 /* Section Hero */
 .hero {
-	background-color: #2f303a;
+	background-color: var(--second-bgcolor);
 }
 
 .hero-title {
@@ -157,10 +157,10 @@ h3 {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 
-	color: #ffffff;
+	color: var(--primary-white-color);
 }
 .hero-btn {
-	background: #2196f3;
+	background: var(--accent-color);
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
@@ -171,20 +171,20 @@ h3 {
 	text-align: center; */
 	letter-spacing: 0.06em;
 
-	color: #ffffff;
+	color: var(--primary-white-color);
 
 	cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background: #188ce8;
+	background: var(--second-btn-color);
 }
 
 /* Section Features */
 
 .features {
-	background-color: #e5e5e5;
+	background-color: var(--third-bgcolor);
 }
 
 .features-title {
@@ -206,7 +206,7 @@ h3 {
 
 /* Section About */
 .about {
-	background-color: #e5e5e5;
+	background-color: var(--third-bgcolor);
 }
 
 .about-title {
@@ -219,11 +219,11 @@ h3 {
 
 /* Section Team */
 .team {
-	background-color: #f5f4fa;
+	background-color: var(--fourth-bgcolor);
 }
 
 .team-item {
-	background-color: #ffffff;
+	background-color: var(--primary-white-color);
 }
 .team-main-title {
 	font-weight: 700;
@@ -252,12 +252,13 @@ h3 {
 /* Main page Portfolio */
 
 .portfolio {
-	background-color: #e5e5e5;
+	background-color: var(--third-bgcolor);
 }
 
 .portfolio-btn {
-	background: #f5f4fa;
+	background: var(--fourth-bgcolor);
 
+	font-family: "Roboto";
 	font-style: inherit;
 	font-weight: 500;
 	font-size: 16px;
@@ -266,19 +267,19 @@ h3 {
 	text-align: center;
 	letter-spacing: 0.03em;
 
-	color: #212121;
+	color: var(--title-text-color);
 
 	cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-	color: #ffffff;
-	background-color: #2196f3;
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
 }
 
 .portfolio-item {
-	background-color: #eeeeee;
+	background-color: var(--primary-white-color);
 }
 
 .portfolio-title {
